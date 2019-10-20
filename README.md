@@ -1,5 +1,9 @@
 # Learning to Fool the Speaker Recognition
-![proposal_model](./fig/speaker_recognition_attacker_model.jpg)
+<table width="100%" cellpadding="0" cellspacing="0" border='0'>
+ <tr><td align="center">
+<img src="./fig/speaker_recognition_attacker_model.jpg" width="75%" align="canter">
+  </td></tr>
+</table>
 We proposed a lightweight model to attack the speaker recognition model, and we find that the speaker recognition model is vulnerable to the attack. We conduct experiments on TIMIT dataset to demenstrate the efficiency of our model, and our attack achieve high success rate with imperceptible small perturbations.
 
 
