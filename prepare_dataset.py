@@ -132,6 +132,8 @@ def chunk_file_with_phone(wav_data, phn_label, fs, wlen, wshift):
 
 
 def prepare_data_for_speaker(data_root, output_dir, fs=16000, wlen=200, wshift=10):
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
     split = ['train', 'test']
     data_list_dir = "./data/TIMIT/speaker"
     # get speaker id set
@@ -167,7 +169,7 @@ def prepare_data_for_speaker(data_root, output_dir, fs=16000, wlen=200, wshift=1
     # dump the speaker id set
     with open(os.path.join(output_dir, "speaker_id.pickle"), "wb") as fp:
         pickle.dump(speaker_id_set, fp)
-    print("prepare dataset for speaker recognition end, save data into {}".format(data_list_dir))
+    print("prepare dataset for speaker recognition end, save data into {}".format(output_dir))
     
 
 def get_parser():
