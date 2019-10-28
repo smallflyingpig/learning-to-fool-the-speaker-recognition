@@ -61,10 +61,10 @@ python train_transformer.py --pt_file PATH_FOR_MODEL --data_root PATH_FOR_TIMIT 
 
 
 # project home page
-our results, data, pretrained model can be found on our [speaker-recognition-attacker](https://smallflyingpig.github.io/speech-to-image/main) project main page.
+our results, data, pretrained model can be found on our [speaker-recognition-attacker](https://smallflyingpig.github.io/speaker-recognition-attacker/main) project main page.
 
 # Acknowledgement
-Thanks to the valuable discussion with [Jiayi Fu](), [Jing Lin]() and [Junjie Shi](). Besides, thanks to the open source of [SincNet](https://github.com/mravanelli/SincNet), [Pytorch-Kaldi](https://github.com/mravanelli/pytorch-kaldi), [PESQ](https://github.com/vBaiCai/python-pesq).
+Thanks to the valuable discussion with Jiayi Fu, Jing Lin and Junjie Shi. Besides, thanks to the open source of [SincNet](https://github.com/mravanelli/SincNet), [Pytorch-Kaldi](https://github.com/mravanelli/pytorch-kaldi), [PESQ](https://github.com/vBaiCai/python-pesq).
 
 
-Please feel free to contact me (jiguo.li@vipl.ict.ac.cn, jgli@pku.edu.cn) if you have any questions about this project. **Note that this This work is only for research. Please do not use it for illegal purposes.**
+Please feel free to contact me (jiguo.li@vipl.ict.ac.cn, jgli@pku.edu.cn) if you have any questions about this project. **Note that this work is only for research. Please do not use it for illegal purposes.**
