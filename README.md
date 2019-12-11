@@ -32,7 +32,7 @@ The experiments are conducted  on [TIMIT](https://catalog.ldc.upenn.edu/LDC93S1)
 ### download dataset and pretrained model
  - you can download TIMIT dataset from the offficial site or [here](https://www.kaggle.com/nltkdata/timitcorpus)
  - download the pretrained speaker recognition model from [here](https://bitbucket.org/mravanelli/sincnet_models/), this model is released by the author of [SincNet](https://github.com/mravanelli/SincNet).
- - download our pretrained phoneme recognition model from [here](google drive). You can refer [Pytorch-kaldi](https://github.com/mravanelli/pytorch-kaldi) if you want to train your own phoneme recognition model.
+ - download our pretrained phoneme recognition model from [here](https://drive.google.com/open?id=1sD-C6AEiTmk3k4cGXvf7oM8PfKvVqgmp). You can refer [Pytorch-kaldi](https://github.com/mravanelli/pytorch-kaldi) if you want to train your own phoneme recognition model.
 
 
 
@@ -44,7 +44,7 @@ python ./prepare_dataset.py --data_root PATH_FOR_TIMIT
 Two csv files and a pickle file will be saved in PATH_FOR_TIMIT/processed.
 
 ## training the attacker model
-In the project dictionary "learning-to-fool-the-speaker-recignition", run
+In the project folder "learning-to-fool-the-speaker-recignition", run
 ```
 python train_transformer.py --output_dir ./output/attacker_transformer  --speaker_factor 1 --speech_factor 5 --norm_factor 1000 --speech_kld_factor 1 --norm_clip 0.01 --data_root PATH_FOR_TIMIT --speaker_model PATH_FOR_PRETRAINED_SPEAKER_MODEL --speech_model PATH_FOR_PRETRAINED_PBONENE_MODEL --speaker_cfg ./config/timit_speaker_transformer.cfg --no_dist
 ```
