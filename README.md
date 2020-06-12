@@ -12,7 +12,7 @@ We proposed a lightweight model to attack the speaker recognition model, and we 
 
 # Cite us
 If you use this code or part of it, please cite us!  
-*Jiguo Li, Xinfeng Zhang, Chuanming Jia, Jizheng Xu, Li Zhang, Yue Wang, Siwei Ma, Wen Gao, "learning to fool the speaker recognition"* [arxiv(avaliable soon)]()
+*Jiguo Li, Xinfeng Zhang, Chuanming Jia, Jizheng Xu, Li Zhang, Yue Wang, Siwei Ma, Wen Gao, "learning to fool the speaker recognition"* [arxiv](https://arxiv.org/abs/2004.03434)[IEEE Xplore](https://ieeexplore.ieee.org/document/9053058)
 
 
 # Prerequisites
